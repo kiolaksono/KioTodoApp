@@ -1,0 +1,172 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+nav{
+    background-color: greenyellow;
+}
+
+.skyboard:hover{
+    cursor: none;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.title{
+    width: 80%;
+    text-align: center;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    min-height: 500px;
+    width: 100%;
+    color: black;
+    
+}
+
+.sec-left{
+    margin-right: 2%;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;  
+    
+      
+}
+
+.sec-right{
+    margin-left: 2%;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.task-list{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.todo-list{
+    border: none;
+    text-align: left;
+    background-color: white;
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+.modal-header{
+    background-color: purple;
+    color: white;
+}
+
+.task-done{
+    width: 100%;
+    height: 100%;
+    border: none;
+
+}
+
+.todo-done{
+    padding: 5px;
+    text-align: left;
+    min-height: 100px;
+
+}
+
+
+.judul{
+    border: none;
+    border-bottom: solid;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    background-color: transparent;
+    min-height: 30px;
+    width: 95%;
+    
+    
+}
+
+.judul:hover{
+    cursor: default;
+
+}
+
+.desc{
+    border: none;
+    text-align: left;
+    font-size: small;
+    background-color: transparent;
+    width: 95%;
+    
+}
+
+.desc:hover{
+    cursor: default;
+}
+
+input{
+    outline: none;
+    resize: vertical;
+    
+}
+
+textarea{
+    resize: vertical;
+    min-height: 50px;
+    max-height: 100px;
+    outline: none;
+}
+
+
+.action{
+    border: none;
+    justify-content: right;
+    display: flex;
+    text-align: center;
+
+}
+
+
+.btn{
+    margin: 5px;
+    border: purple;
+    background-color: purple;
+}
+
+.btn:hover{
+    color: black;
+    background-color: greenyellow;
+    cursor: pointer;
+    border-color: greenyellow;
+}

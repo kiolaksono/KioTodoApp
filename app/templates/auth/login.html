@@ -1,0 +1,29 @@
+{% extends 'auth/base.html' %} 
+
+{% block title %}Login Page{% endblock %}
+
+{%block content%}
+
+
+
+<div class="login-form-outside">
+  <form class="form-login" id="form-login">
+      <div class="mb-3 form-login-inside">
+        <label class="form-label">Username</label>
+        <input type="text" class="form-control" id="loginUsername">
+      </div>
+      <div class="mb-3 form-login-inside">
+        <label class="form-label">Password</label>
+        <input type="password" class="form-control" id="loginPassword">
+      </div>
+      <div class="mb-3 form-login-inside">
+        <button type="submit" class="btn btn-primary" id="login">Login</button>
+        <a type="button" style="color:blue" href="../api/auth/signup">Register</button>
+      </div>
+  </form>
+</div>
+
+<script src="{{url_for('static', filename="script/auth.js")}}"></script>
+
+
+{% endblock%}

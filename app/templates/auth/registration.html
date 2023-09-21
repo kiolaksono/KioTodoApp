@@ -1,0 +1,43 @@
+{% extends 'auth/base.html' %} 
+
+{% block title %}Sign Up{% endblock %}
+
+
+{%block content%}
+
+<form method="POST">
+    <div class="mb-3">
+      <label class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email_reg" name="email_reg">
+      
+    </div>
+    
+    <div class="mb-3">
+        <label class="form-label">First Name</label>
+        <input type="text" class="form-control" id="firstname_reg" name="firstname_reg">
+        
+    </div>
+    
+    <div class="mb-3">
+        <label class="form-label">Surname</label>
+        <input type="text" class="form-control" id="lastname_reg" name="lastname_reg">
+        
+    </div>
+    
+    <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input type="text" class="form-control" id="username_reg" name="username_reg">
+        
+    </div>
+    
+    <div class="mb-3">
+      <label class="form-label">Password</label>
+      <input type="password" class="form-control" id="password_reg" name="password_reg">
+    </div>
+    
+    <button type="submit" class="btn btn-primary" id="signup">Submit</button>
+    <a type="button" href="/login">Back to Login</button>
+  </form>
+
+
+{% endblock%}
