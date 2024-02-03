@@ -69,4 +69,7 @@ Aplikasi web ini memiliki beberapa fitur seperti:
 5. Create New Task
 <img width="552" alt="image" src="https://github.com/kiolaksono/KioTodoApp/assets/103632483/5df9e531-92d4-467a-9220-d6b517cecda7">
 
+6. Homepage dengan tugas yang sudah selesai
+<img width="1710" alt="image" src="https://github.com/kiolaksono/KioTodoApp/assets/103632483/b753f287-22c8-42fa-8e90-a70aacb90e12">
+
 
